@@ -10,7 +10,7 @@ public class RealComputer implements Computer {
     }
 
     private void loadWindow(String comId) {
-        System.out.println("로딩중 " + comId);
+        System.out.println("로딩중.... " + comId);
     }
 
     @Override
