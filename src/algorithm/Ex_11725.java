@@ -28,7 +28,7 @@ public class Ex_11725 {
         Queue<Integer> queue = new LinkedList<Integer>();
         queue.add(1);
         visit[1] = true;
-        int ans[] = new int[N + 1];
+        int[] ans = new int[N + 1];
 
         while(!queue.isEmpty()) {
             Integer num = queue.poll();
